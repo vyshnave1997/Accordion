@@ -2,119 +2,121 @@
 
 /* Basic Accordion */
 .basic-accordion {
-    width: 100%;
-  }
-  
-  .basic-accordion-item {
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-  }
-  
-  .basic-accordion-header {
-    padding: 10px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  .basic-accordion-content {
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  /* Animated Accordion */
-  .animated-accordion {
-    width: 100%;
-  }
-  
-  .animated-accordion-item {
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-  }
-  
-  .animated-accordion-header {
-    padding: 10px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  .animated-accordion-content {
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  /* Animation Styles */
-  .accordion-content-enter {
-    opacity: 0;
-  }
-  .accordion-content-enter-active {
-    opacity: 1;
-    transition: opacity 300ms;
-  }
-  .accordion-content-exit {
-    opacity: 1;
-  }
-  .accordion-content-exit-active {
-    opacity: 0;
-    transition: opacity 300ms;
-  }
-  
-  /* Multi Accordion */
-  .multi-accordion {
-    width: 100%;
-  }
-  
-  .multi-accordion-item {
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-  }
-  
-  .multi-accordion-header {
-    padding: 10px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  .multi-accordion-content {
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  /* Nested Accordion */
-  .nested-accordion {
-    width: 100%;
-  }
-  
-  .nested-accordion-item {
-    border: 1px solid #ddd;
-    margin-bottom: 5px;
-  }
-  
-  .nested-accordion-header {
-    padding: 10px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-  }
-  
-  .nested-accordion-content {
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  .nested-sub-items {
-    margin-left: 20px;
-    border-left: 1px solid #ddd;
-  }
-  
-  .nested-sub-item {
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .nested-sub-header {
-    padding: 10px;
-    background-color: #f9f9f9;
-    cursor: pointer;
-  }
-  
-  .nested-sub-content {
-    padding:
-  
+  width: 100%;
+}
+
+.basic-accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.basic-accordion-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.basic-accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Animated Accordion */
+.animated-accordion {
+  width: 100%;
+}
+
+.animated-accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.animated-accordion-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.animated-accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Animation Styles */
+.accordion-content-enter {
+  opacity: 0;
+}
+.accordion-content-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.accordion-content-exit {
+  opacity: 1;
+}
+.accordion-content-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* Multi Accordion */
+.multi-accordion {
+  width: 100%;
+}
+
+.multi-accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.multi-accordion-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.multi-accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Nested Accordion */
+.nested-accordion {
+  width: 100%;
+}
+
+.nested-accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.nested-accordion-header {
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.nested-accordion-content {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.nested-sub-items {
+  margin-left: 20px;
+  border-left: 1px solid #ddd;
+}
+
+.nested-sub-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.nested-sub-header {
+  padding: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.nested-sub-content {
+  padding: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
